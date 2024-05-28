@@ -54,7 +54,7 @@ const Carousel = () => {
   return (
     <div style={{fontFamily: "OpenSans-Medium"}} className='relative'>
         <div className='absolute top-1/4 left-96 w-1/2 z-10'>
-          <div className='text-white bg-[#F45726] px-4 py-2 w-[250px] mb-5'>
+          <div className='text-white bg-[#F45726] px-4 py-2 w-auto md:w-[250px] mb-5'>
             <p>DENTAL PRACTICE</p>
           </div>
 
